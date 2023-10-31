@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+}
+
+nav .logo {
+    width: 120px;
+}
+
+nav .logo a {
+    margin: 30px;
+    display: inline-block;
+    width: 100%;
+}
+
+nav .logo a img {
+    display: inline-block;
+    width: 100%;
+}
+
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 60px;
+    display: block;
+    margin: 0 30px;
+}
+
+.levels-container {
+    display: grid;
+    grid-template-areas:
+        "iqro1 iqro2"
+        "iqro3 iqro4"
+        "iqro5 iqro6";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 50px 30px;
+}
+
+.levels-container .level-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #246E4C;
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
+.levels-container .level-item {
+    color: white;
+    font-family: 'Shippori Mincho', serif;
+}
