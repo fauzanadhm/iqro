@@ -133,7 +133,7 @@ h1 {
     background-color: #246E4C;
 }
 
-.menu-item {
+.menu-item span {
     color: white;
     font-family: 'Shippori Mincho', serif;
     font-size: 18px;

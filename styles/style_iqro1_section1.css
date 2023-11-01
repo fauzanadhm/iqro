@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    background-color: white;
+    height: 30vh;
+    position: fixed;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0;
+}
+
+
+nav {
+    display: flex;
+}
+
+nav .logo {
+    object-fit: contain;
+    flex-basis: 40%;
+}
+
+nav .logo a {
+    display: inline-block;
+    width: 100%;
+}
+
+nav .logo a img {
+    display: inline-block;
+    width: 100%;
+}
+
+
+.breadcrumb-container h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+}

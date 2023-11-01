@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    background-color: white;
+    height: 30vh;
+    position: fixed;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0;
+}
+
+
+nav {
+    display: flex;
+}
+
+nav .logo {
+    object-fit: contain;
+    flex-basis: 40%;
+}
+
+nav .logo a {
+    display: inline-block;
+    width: 100%;
+}
+
+nav .logo a img {
+    display: inline-block;
+    width: 100%;
+}
+
+
+.breadcrumb-container h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+}
+
+.main-container {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    height: 100%;
+    margin-top: 30vh;
+}
+
+.path-container {
+    overflow-y: auto;
+}
+
+svg {
+    width: 100%;
+}
+
+.section {
+    background-color: #246E4C;
+    height: 10vh;
+    margin-bottom: 4px;
+}
+
+.section a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.section a span {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+}
+
+.latihan {
+    background-color: #246E4C;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.latihan a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.latihan a span {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+}
+
+.latihan a span:nth-child(1) {
+    font-family: 'Shippori Mincho', serif;
+}

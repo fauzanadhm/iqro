@@ -56,7 +56,8 @@ h1 {
     width: 100%;
 }
 
-.levels-container .level-item {
+.levels-container .level-item span {
+    font-size: 18px;
     color: white;
     font-family: 'Shippori Mincho', serif;
 }
