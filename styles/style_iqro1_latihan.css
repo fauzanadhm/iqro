@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    background-color: white;
+    min-height: fit-content;
+    width: 100%;
+    position: fixed;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0;
+    z-index: 999;
+}
+
+
+nav {
+    display: flex;
+}
+
+nav .logo {
+    object-fit: contain;
+    max-width: 10%;
+}
+
+nav .logo a {
+    display: inline-block;
+    width: 100%;
+}
+
+nav .logo a img {
+    display: inline-block;
+    width: 100%;
+}
+
+
+.breadcrumb-container h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+}
+
+.exercise-container {
+    padding: 10%;
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    position: relative;
+}
+
+.exercise-container button:active {
+    background-color: #246E4C;
+    color: white;
+}
+
+.exercise-instruction {
+    flex-grow: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 16px;
+}
+
+
+.dengarkan-button {
+    flex-grow: 2.5;
+    border: 2px solid #246E4C;
+    background-color: white;
+    color: #246E4C;
+}
+
+.dengarkan-button:hover {
+    background-color: #D9D9D9;
+}
+
+.dengarkan-button span {
+    font-size: 100px;
+
+}
+
+.choices-container {
+    flex-grow: 2;
+    display: grid;
+    grid-template-areas:
+        "a b"
+        "c d";
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.choices-container input {
+    display: none;
+}
+
+.choices-container input:checked+label {
+    background-color: #246E4C;
+    color: white;
+}
+
+.choices-container label:hover {
+    background-color: #D9D9D9;
+}
+
+.choices-container label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-size: 16px;
+    border: 2px solid #246E4C;
+}
+
+.evaluate {
+    flex-grow: 1;
+    margin-top: 10px;
+}
+
+.evaluate button {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid #246E4C;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 16px;
+
+}
+
+.evaluation {
+    width: 80%;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    opacity: 50%;
+    border-radius: 50%;
+}
+
+.benar span,
+.salah span {
+    font-size: 160px;
+    color: #246E4C;
+}

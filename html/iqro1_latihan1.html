@@ -2,13 +2,101 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-16">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iqro Berbasis Web</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/style_iqro1_latihan.css">
+
+    <!-- Font & Icon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,0,0" />
 </head>
 
 <body>
+    <div class="top-bar">
 
+        <!-- Navbar -->
+        <nav>
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../assets/logo.svg" alt="website logo">
+                </a>
+            </div>
+        </nav>
+
+        <!-- Breadcrumb -->
+        <div class="breadcrumb-container">
+            <h1>Belajar Membaca</h1>
+            <h1>> Iqro 1</h1>
+            <h1>> Latihan Section 1</h1>
+        </div>
+    </div>
+
+    <div class="exercise-container">
+        <div class="exercise-instruction">
+            <span>Pilihlah teks yang sesuai dengan audio</span>
+            <div class="streak">
+                <span>Streak:</span>
+                <span>0/5</span>
+            </div>
+        </div>
+
+        <button class="dengarkan-button">
+            <span class="material-symbols-outlined">
+                play_arrow
+            </span>
+        </button>
+
+        <div class="choices-container">
+            <div class="choice">
+                <input type="radio" id="choice-a" name="choice" value="a" />
+                <label for="choice-a"><span>A</span></label>
+
+            </div>
+
+            <div class="choice">
+                <input type="radio" id="choice-b" name="choice" value="b" />
+                <label for="choice-b"><span>B</span></label>
+
+            </div>
+
+            <div class="choice">
+                <input type="radio" id="choice-c" name="choice" value="c" />
+                <label for="choice-c"><span>C</span></label>
+
+            </div>
+
+            <div class="choice">
+                <input type="radio" id="choice-d" name="choice" value="d" />
+                <label for="choice-d"><span>D</span></label>
+
+            </div>
+        </div>
+
+        <div class="evaluate">
+            <button class="evaluate-button">Cek</button>
+        </div>
+
+        <div class="evaluation benar">
+            <span class="material-symbols-outlined">
+                check
+            </span>
+        </div>
+        <div class="evaluation salah">
+            <span class="material-symbols-outlined">
+                close
+            </span>
+        </div>
+    </div>
 </body>
+
+<script src="../scripts/script_iqro1_latihan.js"></script>
 
 </html>
